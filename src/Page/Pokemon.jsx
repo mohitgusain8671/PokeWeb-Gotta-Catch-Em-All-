@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import PokemonCard from "../Components/cards/PokemonCards";
-import Loader from "../Components/Loader/loader.jsx";
+import Loader from "../Components/Loader/LoaderComponent.jsx";
 import "../index.css"
 export const Pokemon = () =>{
     const [pokemon, setPokemon] = useState([]);
